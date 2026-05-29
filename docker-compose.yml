@@ -1,0 +1,30 @@
+version: "3.9"
+services:
+  servidor:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: servidor
+    networks:
+      redeTeste:
+        ipv4_address: 10.0.0.2
+    cap_add: [NET_ADMIN]
+    command: sleep infinity
+
+  cliente:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: cliente
+    networks:
+      redeTeste:
+        ipv4_address: 10.0.0.3
+    cap_add: [NET_ADMIN]
+    command: sleep infinity
+
+networks:
+  redeTeste:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.0.0.0/24
