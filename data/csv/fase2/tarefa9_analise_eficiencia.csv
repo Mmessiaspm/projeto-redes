@@ -1,0 +1,4 @@
+cenario,pacotes_dados,pacotes_ack,razao_dados_ack,eficiencia_simulada_pct,eficiencia_real_pct
+A,7490,7490,1.0,96.55,100.0
+B,11380,7490,1.5194,63.92,67.54
+C,18204,7490,2.4304,40.13,51.06

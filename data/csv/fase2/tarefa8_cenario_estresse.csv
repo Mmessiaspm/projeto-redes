@@ -1,0 +1,2 @@
+cenario,perda_pct,delay_ms,tempo_simulado_s,throughput_simulado_mbps,retransmissoes_simuladas,eficiencia_simulada_pct,extrapolacao_linear_b_c_s
+D-estresse-25pct,25,100,2680.7,0.0313,16624,30.35,2917.846

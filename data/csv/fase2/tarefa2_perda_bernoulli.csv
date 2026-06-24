@@ -1,0 +1,4 @@
+cenario,perda_tc_pct,perda_simulada_pct,erro_absoluto_pp,n_ensaios
+A,0,0.0,0.0,100000
+B,10,9.947,0.053,100000
+C,20,20.048,0.048,100000

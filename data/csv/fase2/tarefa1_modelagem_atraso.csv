@@ -1,0 +1,4 @@
+cenario,rtt_real_ms,rtt_real_std_ms,rtt_simulado_ms,rtt_simulado_std_ms,erro_pct
+A,11.85,1.121,11.89,1.09,0.341
+B,53.87,1.741,53.897,1.742,0.05
+C,103.477,1.968,103.41,1.999,0.064

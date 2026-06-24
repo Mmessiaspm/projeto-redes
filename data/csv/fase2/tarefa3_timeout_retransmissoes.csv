@@ -1,0 +1,4 @@
+cenario,retransmissoes_reais,retransmissoes_simuladas,erro_pct,tempo_simulado_s,tempo_real_s,throughput_real_mbps,throughput_simulado_mbps
+A,0,0,0,18.753,0.225,372.9,4.4731
+B,3600,3776,4.89,612.935,620.822,0.2,0.1369
+C,7180,10800,50.42,1807.509,1345.906,0.12,0.0464
